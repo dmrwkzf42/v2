@@ -53,7 +53,7 @@ func TestV2RayClose(t *testing.T) {
 				}),
 				ProxySettings: serial.ToTypedMessage(&dokodemo.Config{
 					Address: net.NewIPOrDomain(net.LocalHostIP),
-					Port:    uint32(0),
+					Port:    uint32(1),
 					NetworkList: &net.NetworkList{
 						Network: []net.Network{net.Network_TCP, net.Network_UDP},
 					},
