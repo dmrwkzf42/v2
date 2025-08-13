@@ -16,8 +16,8 @@ import (
 	"syscall"
 
 	"v2ray.com/core"
-	"v2ray.com/core/common/cmdarg"
-	"v2ray.com/core/common/platform"
+	"v2ray.com/core/common/cmdarg1"
+	"v2ray.com/core/common/platform2"
 	_ "v2ray.com/core/main/distro/all"
 )
 
