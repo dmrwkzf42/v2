@@ -9,7 +9,7 @@ import (
 	"v2ray.com/core/common"
 	"v2ray.com/core/common/net"
 	"v2ray.com/core/features/routing"
-	"v2ray.com/core/transport/internet/udp"
+	"v2ray.com/core/transport/internet/udp2"
 )
 
 // CreateObject creates a new object based on the given V2Ray instance and config. The V2Ray instance may be nil.
