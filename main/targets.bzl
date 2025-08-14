@@ -7,7 +7,7 @@ def gen_targets(matrix):
   for (os, arch, ver) in matrix:
 
     if arch in ["arm"]:
-      bin_name = "v2ray_" + os + "_" + arch + "_" + ver
+      bin_name = "v2ray_" + os + "_" + arch + "_" + ver2
       foreign_go_binary(
         name = bin_name,
         pkg = pkg,
@@ -23,7 +23,7 @@ def gen_targets(matrix):
         foreign_go_binary(
           name = bin_name,
           pkg = pkg,
-          output = "w" + output,
+          output = "w2" + output,
           os = os,
           arch = arch,
           ver = ver,
